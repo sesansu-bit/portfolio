@@ -1,0 +1,275 @@
+.Project{
+    height :700px;
+    width :100%; 
+    margin-top : 1rem; 
+    padding-top : 1rem;
+}
+.projectcover{
+    height :69px;
+    width :10rem;
+    display: flex; 
+    margin-left :40rem ;
+}
+.project.animate {
+    animation: slideIn 2s ease forwards ;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-22px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.leftline{
+    height :53px;
+    width :0.3rem;
+    border-left : 5px solid rgba(4,255,0,1);
+    margin-top : -0.3rem; 
+}
+.project{
+    font-size: 1.5rem;
+    margin-left : 1rem;
+    color:rgb(222, 176, 255);
+font-weight: 700;
+position: absolute;
+z-index: 1;
+background-color:  transparent;
+font-family: "Ubuntu", sans-serif;
+color:transparent;
+cursor: pointer;
+background: linear-gradient(180deg, rgba(255,255,255,1) 59%, rgba(4,255,0,1) 60%);
+background-clip:text;
+-webkit-background-clip:text;
+}
+.projectbox{
+    height :530px;
+    width :100%;
+    top :0;
+    display:flex;
+    margin-top : 2rem;
+   flex-wrap: wrap;
+    padding-left : 2rem;
+}
+.shoppingcover{
+    height :200px;
+    width :30rem;
+    border: 1px solid rgba(4,255,0,1);
+    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+    margin-top : 4rem;
+    margin-left : 8rem;
+    border-radius: 5px;
+    display:flex;
+    transition: all 0.5s ;
+}
+.shoppingcover:hover{
+    transform: scale(1.07);
+}
+.shopimage{
+    height :180px;
+    width :10rem;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    margin-left : 10px;
+    border-radius: 5px;
+}
+
+.shopimage img{
+    height :100%;
+    width :100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.shoppingtext{
+    height :180px;
+    width :18rem;
+    margin-top : 10px;
+    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+    margin-bottom : 10px;
+    margin-left : 10px;
+  padding-left : 10px;
+  padding-top : 5px;
+  color:white;
+  border-radius: 5px; 
+
+}
+
+.shoppingtext p{
+    font-size: small;
+    margin-top : 10px;
+    font-weight: 400;
+    color:rgba(4,255,0,1);
+}
+
+.instacover{
+    height :200px;
+    width :30rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top : 4rem;
+    margin-left : 3rem;
+    border-radius: 5px;
+    display:flex;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+  .instacover:hover .instatext{
+                    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+                    border: 1px solid rgb(128, 255, 0);
+                }
+.instacover:hover{
+    transform: scale(1.07);
+    border: 1px solid rgb(128, 255, 0);
+    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+}
+.instaimage{
+    height :180px;
+    width :10rem;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    margin-left : 10px;
+    border-radius: 5px;
+}
+
+.instatext{
+    height :180px;
+    width :18rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top : 10px;
+    transition: all 0.5s;
+    margin-bottom : 10px;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+    margin-left : 10px;
+  padding-left : 10px;
+  padding-top : 5px;
+  color:white;
+  border-radius: 5px;
+}
+.instatext p{
+    font-size: small;
+    margin-top : 10px;
+    color:rgba(4,255,0,1);
+    font-weight: 400;
+}
+
+.instaimage img{
+    height :100%;
+    width :100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.advancecover{
+    height :200px;
+    width :30rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top : 4rem;
+    margin-left : 8rem;
+    border-radius: 5px;
+    display:flex;
+    transition: all 0.5s;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+}
+.advancecover:hover{
+    transform: scale(1.07);
+    border: 1px solid rgb(128, 255, 0);
+box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+}
+.advancecover:hover .advancetext{
+    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+    border: 1px solid rgb(128, 255, 0);
+}
+
+.advanceimage{
+    height :180px;
+    width :10rem;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    margin-left : 10px;
+    border-radius: 5px;
+}
+.advanceimage img{
+    height :100%;
+    width :100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.advancetext{
+    height :180px;
+    width :18rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top : 10px;
+    transition: all 0.5s;
+    margin-bottom : 10px;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+    margin-left : 10px;
+  padding-left : 10px;
+  padding-top : 5px;
+  color:white;
+  border-radius: 5px;
+}
+.advancetext p{
+    font-size: small;
+    margin-top : 10px;
+    color:rgba(4,255,0,1);
+    font-weight: 400;
+}
+
+
+
+.portcover{
+    height :200px;
+    width :30rem;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top : 4rem;
+    margin-left : 3rem;
+    border-radius: 5px;
+    display:flex;
+    transition: all 0.5s;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+}
+.portcover:hover{
+    transform: scale(1.07);
+    border: 1px solid rgb(128, 255, 0);
+box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+}
+.portcover:hover .porttext{
+    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+    border: 1px solid rgb(128, 255, 0);
+}
+.portimage{
+    height :180px;
+    width :10rem;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    margin-left : 10px;
+    border-radius: 5px;
+}
+.portimage img{
+    height :100%;
+    width :100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.porttext{
+    height :180px;
+    width :18rem;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+    margin-top : 10px;
+    transition: all 0.5s;
+    margin-bottom : 10px;
+    margin-left : 10px;
+  padding-left : 10px;
+  padding-top : 5px;
+  color:white;
+  border-radius: 5px;
+}
+.porttext p{
+    font-size: small;
+    margin-top : 10px;
+    font-weight: 400;
+    color:rgba(4,255,0,1);
+}
