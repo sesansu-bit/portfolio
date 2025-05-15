@@ -22,7 +22,7 @@ const About = () =>{
     <div className={styles["homepagecover"]}>
     <div className={styles["homeright"]}>
         <div className={styles["rightcard"]}> 
-          <img src="./public/pic.jpg"/>
+          <img src="/pic.jpg"/>
         </div>
         </div>
 
