@@ -1,0 +1,442 @@
+.Skill{
+    height :1020px;
+    width :100%; 
+    margin-top : 3rem; 
+    padding-top : 1rem;
+}
+.skillcover{
+    height :69px;
+    width :10rem;
+    display: flex; 
+    margin-left :40rem ;
+}
+.skill.animate {
+    animation: slideIn 2s ease forwards ;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-22px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.leftline{
+    height :53px;
+    width :0.3rem;
+    border-left : 5px solid rgba(4,255,0,1);
+    margin-top : -0.3rem; 
+}
+.skill{
+    font-size: 1.5rem;
+    margin-left : 1rem;
+    color:rgba(4,255,0,1);
+font-weight: 700;
+position: absolute;
+z-index: 1;
+background-color:  transparent;
+font-family: "Ubuntu", sans-serif;
+color:transparent;
+cursor: pointer;
+background: linear-gradient(180deg, rgba(255,255,255,1) 59%, rgba(4,255,0,1) 60%);
+background-clip:text;
+-webkit-background-clip:text;
+}
+
+.skillbox{
+    height :755px;
+    width :100%;
+    top :0;
+    display:flex;
+    margin-top : 7rem;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    padding-left : 9rem;
+    padding-right :9rem;
+}
+@media(max-width:1252px){
+    .skillbox{
+        justify-content: space-around;
+        height :855px;
+        padding-left : 5rem;
+        padding-right :0rem;
+
+
+    }
+}
+.html{
+border:1px solid rgba(4,255,0,1);
+height : 48%;
+width :100%;
+}
+.text1{
+padding-left : 7.5rem;
+margin-top :21%;
+color:white;
+font-weight: 600;
+color:transparent;
+cursor: pointer;
+background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(4,255,0,1) 50%);
+background-clip:text;
+-webkit-background-clip:text;
+}
+.text2{
+    padding-left : 2.5rem;
+    margin-top :2%;
+    color:rgba(255, 255, 255, 0.934);
+    font-size: small;
+    margin-right :1.7rem;
+    background-color: transparent;
+}
+.htmlicon{
+transform: scale(6);
+color:rgba(4,255,0,1);
+}
+.htmliconcov{
+position: absolute;
+margin-left : 8.7rem;
+margin-top :-1.5%;
+background-color: rgb(0, 0, 0);
+}
+.htmlcover{
+    height : 188px;
+    width :300px;
+    border:1px solid rgba(4,255,0,1); 
+    box-shadow: inset 0px 0px 13px rgb(128, 255, 0),inset 0 0 13px rgb(128, 255, 0);
+}
+
+
+.css3{
+    border:1px solid rgb(255, 255, 255);
+    height : 48%;
+    width :100%;
+    }
+    .css3cover:hover .css3{
+        border:1px solid rgba(4,255,0,1);
+    }
+.css3cover{
+    height : 188px;
+    width :300px;
+    position: relative;
+    border:1px solid rgb(255, 255, 255);
+    margin-left : 2rem;
+    box-shadow: inset 0 0 13px rgb(255, 255, 255),inset 0 0 13px rgb(255, 255, 255);
+    }
+    .text3{
+    padding-left : 8.1rem;
+    margin-top :21%;
+    color:white;
+    font-weight: 600;
+    color:transparent;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(4,255,0,1) 50%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    }
+    .text4{
+        padding-left : 2.7rem;
+        margin-top :2%;
+        color:white;
+        font-size: small;
+        margin-right :1.7rem;
+        background-color: transparent;
+    }
+    .css3icon{
+    transform: scale(6);
+    color:rgb(255, 255, 255);
+    }
+    .css3iconcov{
+    position: absolute;
+    margin-left : 8.7rem;
+    margin-top :-1.5%;
+    background-color: rgb(0, 0, 0);
+    }
+    .css3cover:hover .css3icon{
+        color:rgba(4,255,0,1);
+    }
+    
+    .css3cover:hover{
+    border:1.2px solid rgba(4,255,0,1);
+    box-shadow: inset 0 0 13px rgb(128, 255, 0),inset 0 0 13px rgb(128, 255, 0);
+    }
+
+
+    .javascript{
+        border:1px solid rgb(255, 255, 255);
+        height : 48%;
+        width :100%;
+        }
+        .javascriptcover:hover .javascript{
+            border:1px solid rgba(4,255,0,1);
+        }
+.javascriptcover{
+    height : 188px;
+    width :300px;
+    position: relative;
+    margin-left : 2rem;
+    border:1px solid rgb(255, 255, 255);
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+    }
+    .text5{
+    padding-left : 6.5rem;
+    margin-top :21%;
+    font-weight: 600;
+    color:transparent;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(4,255,0,1) 50%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    }
+    .text6{
+        padding-left : 2.5rem;
+        margin-top :2%;
+        color:white;
+        font-size: small;
+        margin-right :1.7rem;
+        background-color: transparent;
+    }
+ .javascripticon{
+    transform: scale(6);
+    color:rgb(255, 255, 255);
+    }
+.javascripticoncov{
+    position: absolute;
+    margin-left : 8.7rem;
+    margin-top :-1.5%;
+    background-color: rgb(0, 0, 0);
+    }
+    .javascriptcover:hover .javascripticon{
+        color:rgba(4,255,0,1);
+    }
+    .javascriptcover:hover{
+    border:1.2px solid rgba(4,255,0,1);
+    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+    }
+
+       
+
+
+    .java{
+        border:1px solid rgb(255, 255, 255);
+        height : 48%;
+        width :100%;
+        }
+     .javacover:hover .java{
+            border:1px solid rgba(4,255,0,1);
+        }
+    .javacover{
+        height : 188px;
+        width :300px;
+      
+        border:1px solid rgb(255, 255, 255);
+        margin-top :5rem ;
+        box-shadow: inset 0 0 13px rgb(255, 255, 255),inset 0 0 13px rgb(255, 255, 255);
+        }
+        .text7{
+        padding-left : 7.9rem;
+        margin-top :21%;
+        color:white;
+        font-weight: 600;
+        color:transparent;
+        cursor: pointer;
+        background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(4,255,0,1) 50%);
+        background-clip:text;
+        -webkit-background-clip:text;
+        }
+        .text8{
+            padding-left : 2.5rem;
+            margin-top :2%;
+            color:white;
+            font-size: small;
+            margin-right :1.7rem;
+            background-color: transparent;
+        }
+     .javaicon{
+        transform: scale(6);
+        color:rgb(255, 255, 255);
+        }
+    .javaiconcov{
+        position: absolute;
+        margin-left : 8.7rem;
+        margin-top :-1.5%;
+        background-color: rgb(0, 0, 0);
+        }
+        .javacover:hover .javaicon{
+            color:rgba(4,255,0,1);
+        }
+        .javacover:hover{
+        border:1.2px solid rgba(4,255,0,1);
+        box-shadow: inset 0 0 13px rgb(128, 255, 0),inset 0 0 13px rgb(128, 255, 0);
+        }
+
+
+
+        
+    .react{
+        border:1px solid rgb(255, 255, 255);
+        height : 48%;
+        width :100%;
+        }
+     .reactcover:hover .react{
+            border:1px solid rgba(4,255,0,1);
+        }
+        .reactcover{
+            height : 188px;
+            width :300px;
+            border:1px solid rgb(255, 255, 255);
+            margin-left : 2rem;
+            margin-top :5rem ;
+            box-shadow: inset 0 0 13px rgb(255, 255, 255),inset 0 0 13px rgb(255, 255, 255);
+            }
+            .text9{
+            padding-left : 7.7rem;
+            margin-top :21%;
+            color:white;
+            font-weight: 600;
+            color:transparent;
+            cursor: pointer;
+            background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(4,255,0,1) 50%);
+            background-clip:text;
+            -webkit-background-clip:text;
+            }
+            .text10{
+                padding-left : 2.5rem;
+                margin-top :2%;
+                color:white;
+                font-size: small;
+                margin-right :1.7rem;
+                background-color: transparent;
+            }
+         .reacticon{
+            transform: scale(6);
+            color:rgb(255, 255, 255);
+            }
+        .reacticoncov{
+            position: absolute;
+            margin-left : 8.7rem;
+            margin-top :-1.5%;
+            background-color: rgb(0, 0, 0);
+            }
+            .reactcover:hover .reacticon{
+                color:rgba(4,255,0,1);
+            }
+            .reactcover:hover{
+            border:1.2px solid rgba(4,255,0,1);
+            box-shadow: inset 0 0 13px rgb(128, 255, 0),inset 0 0 13px rgb(128, 255, 0);
+            }
+
+
+
+
+            .redux{
+                border:1px solid rgb(255, 255, 255);
+                height : 48%;
+                width :100%;
+                }
+             .reduxcover:hover .redux{
+                    border:1px solid rgba(4,255,0,1);
+                }
+            .reduxcover{
+                height : 188px;
+                width :300px;
+                border:1px solid rgb(255, 255, 255);
+                margin-left : 2rem;
+                margin-top :5rem ;
+                box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+                }
+                .text11{
+                padding-left : 5.8rem;
+                margin-top :21%;
+                color:white;
+                font-weight: 600;
+                color:transparent;
+                cursor: pointer;
+                background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(4,255,0,1) 50%);
+                background-clip:text;
+                -webkit-background-clip:text;
+                }
+                .text12{
+                    padding-left : 2.5rem;
+                    margin-top :2%;
+                    color:white;
+                    font-size: small;
+                    margin-right :1.7rem;
+                    background-color: transparent;
+                }
+             .reduxicon{
+                transform: scale(6);
+                color:rgb(255, 255, 255);
+                }
+     .reduxiconcov{
+                position: absolute;
+                margin-left : 8.7rem;
+                margin-top :-1.5%;
+                background-color: rgb(0, 0, 0);
+                }
+                .reduxcover:hover .reduxicon{
+                    color:rgba(4,255,0,1);
+                }
+                .reduxcover:hover{
+                border:1.2px solid rgba(4,255,0,1);
+                box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+                }
+    
+    
+
+        .github{
+                    border:1px solid rgb(255, 255, 255);
+                    height : 48%;
+                    width :100%;
+                    }
+                 .githubcover:hover .github{
+                        border:1px solid rgba(4,255,0,1);
+                    }
+.githubcover{
+     height : 188px;
+     width :300px;
+    position: relative;
+    margin-top :5rem ;
+    border:1px solid rgb(255, 255, 255);
+    box-shadow: inset 0 0 10px rgb(255, 255, 255),inset 0 0 10px rgb(255, 255, 255);
+ }
+.text13{
+                    padding-left : 7.3rem;
+                    margin-top :21%;
+                    color:white;
+                    font-weight: 600;
+                    color:transparent;
+                    cursor: pointer;
+                    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(4,255,0,1) 50%);
+                    background-clip:text;
+                    -webkit-background-clip:text;
+                    }
+                    .text14{
+                        padding-left : 2.5rem;
+                        margin-top :2%;
+                        color:white;
+                        font-size: small;
+                        margin-right :1.7rem;
+                        background-color: transparent;
+                    }
+                .githubicon{
+                    transform: scale(6);
+                    color:rgb(255, 255, 255);
+                    }
+                .githubiconcov{
+                    position: absolute;
+                    margin-left : 8.7rem;
+                    margin-top :-1.5%;
+                    background-color: rgb(0, 0, 0);
+                    }
+                    .githubcover:hover .githubicon{
+                        color:rgba(4,255,0,1);
+                    }
+                    .githubcover:hover{
+                    border:1.2px solid rgba(4,255,0,1);
+                    box-shadow: inset 0 0 10px rgb(128, 255, 0),inset 0 0 10px rgb(128, 255, 0);
+                    }      
+        

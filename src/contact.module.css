@@ -1,0 +1,237 @@
+.Contact{
+    height :600px;
+    width :100%; 
+    margin-top : 3rem; 
+    padding-top : 1rem;
+}
+.contactcover{
+    height :69px;
+    width :10rem;
+    display: flex; 
+    margin-left :35rem ;
+
+}
+.contacttext.animate {
+    animation: slideIn 2s ease forwards ;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-22px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+.leftline{
+    height :53px;
+    width :0.3rem;
+    border-left : 5px solid rgba(4,255,0,1);  
+    margin-top : -0.3rem; 
+}             
+.contacttext{
+font-size: 1.5rem;
+margin-left : 1rem;
+font-weight: 700;
+position: absolute;
+z-index: 1;
+font-family: "Ubuntu", sans-serif;
+color:transparent;
+cursor: pointer;
+background: linear-gradient(180deg, rgba(255,255,255,1) 59%, rgba(4,255,0,1) 60%);
+background-clip:text;
+-webkit-background-clip:text;
+}
+.firstbox{
+    height :400px;
+    width :45%; 
+    margin-top : 3rem; 
+    margin-left : 19%;
+    border:1px solid rgba(4,255,0,1) ;
+    background-color:rgba(4,255,0,1) ;
+}
+.secbox{
+    height :361px; 
+    width :42%;   
+    margin-top : 5.45rem;   
+    position:absolute;
+    box-shadow:0 0 10px rgb(0, 0, 0); 
+    margin-left : 28%;
+    background-color:rgb(255, 255, 255) ;  
+}
+.formbox{
+    height :362px; 
+    width :100%;
+    background: linear-gradient(-45deg, rgb(218, 110, 2) 0%, rgb(0, 0, 0) 48%, rgb(4, 255, 0) 48%, rgba(0,0,0,1) 48%, rgba(230,255,230,1) 48%, rgb(0, 19, 0) 48%);
+   }
+  input{
+    color:rgb(255, 255, 255);
+    margin-left :3.2rem;
+    border : 1.4px solid rgb(4, 255, 0);
+    outline: none; 
+    background-color: rgba(255, 255, 255, 0);
+    height :40px;
+    width :260px;
+    margin-top :0.9rem ;
+    padding-left :1rem ;
+ font-weight: 700;
+}
+input::placeholder {
+    color:rgb(24, 12, 0) ;
+    background-color: rgb(4, 255, 0);
+}
+.num{
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.button{
+    background: linear-gradient(145deg, rgb(10, 112, 8) 43%, rgb(218, 110, 2) 49%);
+    margin-left :3.6rem;
+    color:rgb(255, 255, 255);
+    font-family: "Russo One", sans-serif;
+    font-size:medium;
+    margin-top :2rem ;
+    border-radius: 17px;
+    height :29px;
+    width :221px;
+    padding-left : 4.8rem;
+    padding-top : 0.15rem;
+    box-shadow: 0 0 5px black;
+    transition:all 0.2s;
+    cursor: pointer;
+}
+.button:hover{
+    transform:scale(1.06);
+}
+.boxcov{
+    height :600px; 
+    width :100%; 
+    display: flex;
+}
+.get{
+background-color:rgba(4,255,0,1);
+margin-top : 0.5rem; 
+color:transparent;
+cursor: pointer;
+background: linear-gradient(180deg, rgb(0, 0, 0) 59%, rgb(255, 128, 0) 60%);
+background-clip:text;
+-webkit-background-clip:text;
+font-size: larger;
+font-weight: 600;
+}
+.iconcover{
+    height : 5px;
+    width :250px;
+    margin-top :1rem;
+    justify-content:space-between;
+
+}
+.whatsapp{
+    height : 3rem;
+    width :3rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 9px #04ff00 , inset 0 0 9px #04ff00 ,inset 0 0 9px rgb(255, 255, 255); 
+    padding-top : 0.72rem;
+    padding-left : 0.99rem;  
+transition: all 0.4s ease;
+}
+.whatsappicon{
+    transform: scale(1.5);
+    background-color: black;
+    color:rgb(255, 255, 255);
+    transition: all 0.1s;
+    border-radius: 25%;
+    animation:fadeIn 2s infinite ;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.whatsappicon:hover{
+    transform: scale(1.7);
+}
+.whatsapp:hover{
+    transform: translateX(1rem);
+}
+.instagram{
+    height : 3rem;
+    width :3rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 9px #04ff00 , inset 0 0 9px #04ff00 ,inset 0 0 9px rgb(255, 255, 255); 
+    padding-top : 0.72rem;
+    padding-left : 0.99rem; 
+    transition: all 0.4s ease;
+}
+.instagramicon{
+    transform: scale(1.5);
+    background-color: black;
+    color:rgb(255, 255, 255);
+     transition: all 0.1s;
+    border-radius: 40%;
+    animation:fadeIn 2s infinite ;
+}
+.instagramicon:hover{
+    transform: scale(1.7);
+}
+.instagram:hover{
+    transform: translateX(1rem);
+}
+.facebook{
+    height : 3rem;
+    width :3rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 9px #04ff00 , inset 0 0 9px #04ff00 ,inset 0 0 9px rgb(255, 255, 255); 
+    padding-top : 0.72rem;
+    padding-left : 0.99rem;  
+    transition: all 0.4s ease;
+}
+
+.facebookicon{
+    transform: scale(1.5);
+    background-color: black;
+    color:rgb(255, 255, 255);
+    transition: all 0.1s;
+    border-radius: 40%;
+    animation:fadeIn 2s infinite ;
+}
+.facebookicon:hover{
+    transform: scale(1.7);
+}
+.facebook:hover{
+    transform: translateX(1rem);
+}
+.twitter{
+    height : 3rem;
+    width :3rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 9px #04ff00 , inset 0 0 9px #04ff00 ,inset 0 0 9px rgb(255, 255, 255); 
+    padding-top : 0.76rem;
+    padding-left : 0.99rem; 
+    transition: all 0.4s ease;
+}
+.twitter:hover{
+    transform: translateX(1rem);
+}
+.twittericon{
+    transform: scale(1.5);
+    background-color: black;
+    color:rgb(255, 255, 255);
+    transition: all 0.1s;
+    border-radius: 25%;
+    animation:fadeIn 2s infinite ;
+}
+.twittericon:hover.twitter{
+    transform: scale(1.7);
+
+}
