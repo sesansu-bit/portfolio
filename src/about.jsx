@@ -34,8 +34,7 @@ Bhubaneswar and I am a Fresher Frontend Developer. My passion lies in creating c
 frontend design. I stay up-to-date with current design trend. leveraging my creativity to
 produce visually appealing and user-friendly websites. I believe that a web designed website
 shouldn't only look visually appealing but also provide a smooth and enjoyable interaction for
-visitors and i thoroughly research and analyze the user expectation and
-requirement.
+visitors and i thoroughly research and analyze the user expectation.
     </div>
         </div>
 
